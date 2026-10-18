@@ -40,8 +40,8 @@ go run altscreen.io/helloworld/examples@latest
 
 The example prints the same greeting.
 It requires the published root module, without a local `replace` directive.
-The root release tag is `v0.1.1`.
-The nested release tag is `examples/v0.1.1`.
+The root release tag is `v0.1.2`.
+The nested release tag is `examples/v0.1.2`.
 
 ## Local development
 
@@ -66,3 +66,7 @@ cd examples
 go mod tidy
 go run .
 ```
+
+## License
+
+Both modules use the [MIT License](LICENSE).
